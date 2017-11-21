@@ -37,7 +37,7 @@ module.exports = {
           options: {
             mozjpeg: {
               progressive: true,
-              quality: 80
+              quality: 55
             },
         // optipng.enabled: false will disable optipng
             optipng: {
