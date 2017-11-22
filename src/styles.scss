@@ -10,8 +10,16 @@ html {
   color: white!important;
 }
 
-.is-1 {
-  text-align: center;
+#about {
+  .is-1 {
+    text-align: center;
+  }
+}
+
+#howTo {
+  ul {
+    list-style-type: circle;
+  }
 }
 
 main.container {
