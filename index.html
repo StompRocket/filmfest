@@ -11,87 +11,96 @@
   <body>
 
     <main class="container">
-      <h1 class="title is-1">Prospect Sierra Short Film Festival</h1>
-      <br><br>
-      <section id="video">
-        <iframe id="videoPlayer" src="https://drive.google.com/file/d/1mu06NCy9QsUMHF1GAZ_2gyCyPXn9EXyZ/preview" width="100%"></iframe>
-      </section>
-      <section id="about">
-        <div class="columns">
-          <div class="column">
-            <h1 class="title is-1">About</h1>
-            <p>Spicy jalapeno bacon ipsum dolor amet cow jerky sausage chicken flank chuck beef turkey bresaola venison biltong swine ham burgdoggen. Pork chop jerky pig, pancetta swine kielbasa strip steak andouille shoulder jowl cupim turkey chuck. Bacon
-              doner filet mignon ham hock. Pig turkey spare ribs salami pork belly frankfurter. Leberkas short loin sausage short ribs bresaola boudin spare ribs pig ball tip chicken. Tenderloin pig shank short ribs, venison ham ground round ribeye strip
-              steak brisket. Boudin capicola pig ham.</p>
-          </div>
-          <div class="column">
-            <img async id="slateImage" src="./dist/6f4fa098dae782324f43ed06ccea073f.jpg" alt="">
-          </div>
+      <h1 class="mainHeading">Prospect Sierra <br>Short Film Festival</h1>
 
+      <section id="video">
+        <!--
+        <iframe id="videoPlayer" src="https://drive.google.com/file/d/1mu06NCy9QsUMHF1GAZ_2gyCyPXn9EXyZ/preview" width="100%"></iframe>
+      </section>-->
+        <div itemscope itemtype="https://schema.org/VideoObject">
+          <meta itemprop="uploadDate" content="2017-12-11T20:20:20-0800" />
+          <meta itemprop="name" content="PSSSFF" />
+          <meta itemprop="thumbnailUrl" content="https://content.jwplatform.com/thumbs/J6uFwVeZ-120.jpg" />
+          <meta itemprop="contentUrl" content="https://firebasestorage.googleapis.com/v0/b/brainstorminc-cdb06.appspot.com/o/PSSSFF%20v1.mp4?alt=media&token=ecd55359-9b1d-417c-8458-da97ffd79edc" />
+          <script src="https://content.jwplatform.com/players/J6uFwVeZ-03jFSOKq.js"></script>
         </div>
-      </section>
-      <br>
-      <br>
-      <section id="howTo">
-        <h1 class="title is-1">Rules and Guidelines</h1>
-        <h2 class="subtitle is-4">Submissions open Jan Xth 2018!!</h2>
+        <br><br>
+        <section id="about">
+          <div class="columns">
+            <div class="column">
+              <h1 class="title is-1">About</h1>
+              <p>Spicy jalapeno bacon ipsum dolor amet cow jerky sausage chicken flank chuck beef turkey bresaola venison biltong swine ham burgdoggen. Pork chop jerky pig, pancetta swine kielbasa strip steak andouille shoulder jowl cupim turkey chuck. Bacon
+                doner filet mignon ham hock. Pig turkey spare ribs salami pork belly frankfurter. Leberkas short loin sausage short ribs bresaola boudin spare ribs pig ball tip chicken. Tenderloin pig shank short ribs, venison ham ground round ribeye
+                strip steak brisket. Boudin capicola pig ham.</p>
+            </div>
+            <div class="column">
+              <img async id="slateImage" src="./dist/6f4fa098dae782324f43ed06ccea073f.jpg" alt="">
+            </div>
+
+          </div>
+        </section>
         <br>
-        <h3 class="title is-4">General Submission Guidelines</h3>
-        <p>
-          We accept films under the length of 5 minutes of all genres. Films can be documentaries, narratives, shorts, and or animation.
-        </p>
         <br>
-        <h3 class="title is-4">Awards and Prizes</h3>
-        <p>
-          Awards and prizes will be split up among categories(genres). Winners of each genre will go to the final competition, an after school viewing open to the public. <br><br>
-          <h3 class="title is-5">Genre Prizes</h3>
+        <section id="howTo">
+          <h1 class="title is-1">Rules and Guidelines</h1>
+          <h2 class="subtitle is-4">Submissions open Jan Xth 2018!!</h2>
+          <br>
+          <h3 class="title is-4">General Submission Guidelines</h3>
+          <p>
+            We accept films under the length of 5 minutes of all genres. Films can be documentaries, narratives, shorts, and or animation.
+          </p>
+          <br>
+          <h3 class="title is-4">Awards and Prizes</h3>
+          <p>
+            Awards and prizes will be split up among categories(genres). Winners of each genre will go to the final competition, an after school viewing open to the public. <br><br>
+            <h3 class="title is-5">Genre Prizes</h3>
+            <ul>
+              <li>1st place will get x money and a Graphite Writer T-Shirt</li>
+              <li>2cnd place place will get x money</li>
+              <li>3rd place will get x money</li>
+            </ul>
+            <br>
+            <h3 class="title is-5">Overall Prizes</h3>
+            <ul>
+              <li>
+                1st place will get x money and a Graphite Writer T-Shirt</li>
+              <li> 2cnd place place will get x money and a Graphite Writer T-Shirt</li>
+              <li> 3rd place will get x money and a Graphite Writer T-Shirt</li>
+            </ul>
+          </p>
+          <br>
+          <h3 class="title is-4">How to Submit</h3>
+          <br>
+          <p>To submit your film please share your film with Brie and fill out and turn in a submission form found <a href="./commingsoon.html">here</a> by the deadline. <b>IMPORTANT</b> your film must be at least a 1920 by 1080 resolution and have a file
+            size of no more than 2GB.</p>
+          <br>
+          <h3 class="title is-4">Rules and Terms</h3>
           <ul>
-            <li>1st place will get x money and a Graphite Writer T-Shirt</li>
-            <li>2cnd place place will get x money</li>
-            <li>3rd place will get x money</li>
+            <li>All submissions must be less than 5 minutes.</li>
+            <li>All works must be in English or have English subtitles.</li>
+            <li>Entries can be any genre -- documentary, narrative, fiction, or animation.</li>
+            <li>Entries must be submitted by students and must be completely made by students</li>
+            <li>Adult participation (teachers parents, etc.) should be limited to coaching or acting in the film.</li>
+            <li>All audio/film/graphic content must be original, copyright free or have written permission, and be properly documented.</li>
+            <li>Film must be completed by the deadline date in which they are being submitted. Works in progress will not be accepted, and edits to films after they have been submitted will not be allowed.</li>
+            <li>PSSSFF does not pay screening fees or shipping fees in order to screen a film, nor does PSSSFF underwrite production costs (duplication, subtitling, etc.).</li>
+            <li>Upon completion of the Festival selection process, we will attempt to contact the Applicant using the contact information provided on the submission form to notify the Applicant of the Film’s acceptance status. It is the sole responsibility
+              of the Applicant to ensure that the contact information provided on the submission form is correct throughout the entirety of the selection period.</li>
+            <li>PSSSFF is under no obligation to provide to the Applicant or any other representative of the Film any comments or feedback regarding the submitted Film should it not be accepted for exhibition at the Festival.</li>
+
           </ul>
           <br>
-          <h3 class="title is-5">Overall Prizes</h3>
+          <p>By submitting your films to the PSSSFF, you hereby grant permission for PSSSFF and Brain Storm Studios to use it for the following purposes:</p>
+          <br>
           <ul>
-            <li>
-              1st place will get x money and a Graphite Writer T-Shirt</li>
-            <li> 2cnd place place will get x money and a Graphite Writer T-Shirt</li>
-            <li> 3rd place will get x money and a Graphite Writer T-Shirt</li>
+            <li><b>Stills:</b> Still images from the films can be used on the website, printed materials, banners, and other promotional materials. Please submit one high-resolution headshot of the filmmaker in JPG format.</li>
+            <li><b>Clips:</b> Clips of submitted films may be used to promote PSSSFF by appearing on the PSSSFF website, possible partnership websites, third-party advertising sponsors (i.e., television spots, newspaper print, magazine ads, etc.)</li>
+
           </ul>
-        </p>
-        <br>
-        <h3 class="title is-4">How to Submit</h3>
-        <br>
-        <p>To submit your film please share your film with Brie and fill out and turn in a submission form found <a href="./commingsoon.html">here</a> by the deadline. <b>IMPORTANT</b> your film must be at least a 1920 by 1080 resolution and have a file
-          size of no more than 2GB.</p>
-        <br>
-        <h3 class="title is-4">Rules and Terms</h3>
-        <ul>
-          <li>All submissions must be less than 5 minutes.</li>
-          <li>All works must be in English or have English subtitles.</li>
-          <li>Entries can be any genre -- documentary, narrative, fiction, or animation.</li>
-          <li>Entries must be submitted by students and must be completely made by students</li>
-          <li>Adult participation (teachers parents, etc.) should be limited to coaching or acting in the film.</li>
-          <li>All audio/film/graphic content must be original, copyright free or have written permission, and be properly documented.</li>
-          <li>Film must be completed by the deadline date in which they are being submitted. Works in progress will not be accepted, and edits to films after they have been submitted will not be allowed.</li>
-          <li>PSSSFF does not pay screening fees or shipping fees in order to screen a film, nor does PSSSFF underwrite production costs (duplication, subtitling, etc.).</li>
-          <li>Upon completion of the Festival selection process, we will attempt to contact the Applicant using the contact information provided on the submission form to notify the Applicant of the Film’s acceptance status. It is the sole responsibility
-            of the Applicant to ensure that the contact information provided on the submission form is correct throughout the entirety of the selection period.</li>
-          <li>PSSSFF is under no obligation to provide to the Applicant or any other representative of the Film any comments or feedback regarding the submitted Film should it not be accepted for exhibition at the Festival.</li>
-
-        </ul>
-        <br>
-        <p>By submitting your films to the PSSSFF, you hereby grant permission for PSSSFF and Brain Storm Studios to use it for the following purposes:</p>
-        <br>
-        <ul>
-          <li><b>Stills:</b> Still images from the films can be used on the website, printed materials, banners, and other promotional materials. Please submit one high-resolution headshot of the filmmaker in JPG format.</li>
-          <li><b>Clips:</b> Clips of submitted films may be used to promote PSSSFF by appearing on the PSSSFF website, possible partnership websites, third-party advertising sponsors (i.e., television spots, newspaper print, magazine ads, etc.)</li>
-
-        </ul>
-        <br>
-        <h3 class="title is-4">Questions</h3>
-        <p>If you have any questions please feel free to email us at <a href="mailto:bregis@prospectsierra.org">bregis@prospectsierra.org</a></p>
-      </section>
+          <br>
+          <h3 class="title is-4">Questions</h3>
+          <p>If you have any questions please feel free to email us at <a href="mailto:bregis@prospectsierra.org">bregis@prospectsierra.org</a></p>
+        </section>
     </main>
     <br><br>
     <section class="hero is-primary">

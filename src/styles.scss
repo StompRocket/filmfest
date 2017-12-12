@@ -33,6 +33,30 @@ main.container {
   padding: 0 0 5%;
 }
 
+.mainHeading {
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .mainHeading {
+    font-size: 2rem;
+  }
+
+  .is-1 {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mainHeading {
+    font-size: 1.5rem;
+  }
+
+  .is-1 {
+    font-size: 0.2rem;
+  }
+}
+
 #home {
   background-color: #363636!important;
   color: white!important;
